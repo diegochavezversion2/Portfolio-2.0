@@ -1,46 +1,46 @@
 header {
-  background-color: lightgreen;
+  background-color: #515A47;
   height: 200px;
 }
 
 header h1 {
   font-family: cursive;
   text-align: center;
-  color: gray;
+  color: white;
   font-size: 33px;
 }
 
 header p {
   font-family: cursive;
   text-align: center;
-  color: gray;
-}
-nav {
-  background-color: gray;
-  width: 50%;
-  float: right;
-  color: lightgreen;
-  padding-bottom: 8px;
-  text-align: center;
-  margin: 20px;
+  color: white;
 }
 
 footer {
-  background-color: lightgreen;
-  height: 50px;
+  background-color: #515A47;
+  font-family: cursive;
   text-align: center;
-  color: gray;
-  
+  color: white;
 }
 
 main {
-  background-color: tan;
+  background-color: silver;
 }
 
 main h2 {
   text-align: center;
 }
 
-main p {
+ol, ul {
+  color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.list-inside li {
+  list-style-position: inside;
+}
+
+div {
   text-align: center;
 }
