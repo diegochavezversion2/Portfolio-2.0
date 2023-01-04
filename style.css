@@ -45,3 +45,8 @@ div {
   text-align: center;
   padding-top: 20px;
 }
+
+a:link {color: blue;}
+a:visited {color: lightblue;}
+a:hover {color: red;}
+a:active {color: lightgreen;}
